@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCSE Maths Trainer | Grade 5 Diagnostic & Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>GCSE Maths Trainer</h1>
+        <nav class="nav-tabs" id="navTabs">
+            <button class="nav-btn active" data-target="dashboard">Curriculum Directory</button>
+            <button class="nav-btn" data-target="flashcards">Flashcard Study</button>
+            <button class="nav-btn" data-target="quiz">Practice Quiz</button>
+            <button class="nav-btn" data-target="analytics">RAG Analytics</button>
+        </nav>
+    </header>
+    
+    <main class="app-container">
+        <section id="dashboard" class="view active">
+            <div class="grade-selector">
+                <h2>Select Grade</h2>
+                <div class="grade-grid" id="gradeGrid"></div>
+            </div>
+            <div class="topic-matrix" id="topicMatrix">
+                <h3>Grade <span id="selectedGradeDisplay">5</span> Topics</h3>
+                <div class="topic-list" id="topicList"></div>
+            </div>
+        </section>
+
+        <section id="flashcards" class="view">
+            <div class="flashcard-container">
+                <div class="flashcard-header">
+                    <h2 id="flashcardTitle">Topic Name</h2>
+                    <button class="btn-secondary" id="backToDashboard">← Back to Directory</button>
+                </div>
+                <div class="flashcard-body" id="flashcardBody">
+                    </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="view">
+            <div class="quiz-config" id="quizConfig">
+                <h2>Configure Practice Load</h2>
+                <p>Select number of questions to generate:</p>
+                <div class="config-buttons">
+                    <button class="btn-config" data-count="3">3 Questions</button>
+                    <button class="btn-config" data-count="5">5 Questions</button>
+                    <button class="btn-config" data-count="10">10 Questions</button>
+                    <button class="btn-config" data-count="20">20 Questions</button>
+                </div>
+            </div>
+            <div class="quiz-interface" id="quizInterface" style="display:none;">
+                <div class="quiz-header">
+                    <span id="questionCounter">1 / 10</span>
+                    <span id="scoreDisplay">Score: 0</span>
+                </div>
+                <div class="question-card">
+                    <h3 id="questionText"></h3>
+                </div>
+                <div class="choices-grid" id="choicesGrid"></div>
+                <div class="feedback-panel" id="feedbackPanel" style="display:none;">
+                    <div class="feedback-content" id="feedbackContent"></div>
+                    <button class="btn-primary" id="nextQuestion">Next Question →</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="analytics" class="view">
+            <h2>Knowledge Gap Analysis (RAG)</h2>
+            <div class="rag-legend">
+                <span class="rag red">Red &lt;50%</span>
+                <span class="rag amber">Amber 50-85%</span>
+                <span class="rag green">Green &gt;85%</span>
+            </div>
+            <div class="rag-grid" id="ragGrid"></div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>Open Curriculum | No Progression Walls | RAG-Driven Diagnostics</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+{
+  "grade5": [
+    {
+      "id": "grade5_writing_ratio_fraction",
+      "title": "Ratio as Fraction",
+      "explanation": "Expressing ratios A:B in the functional fractional form of A/(A+B) or comparison fractions A/B.",
+      "examples": ["Express 3:4 as a fraction of the total: 3/(3+4) = 3/7."]
+    },
+    {
+      "id": "grade5_direct_inverse_proportion",
+      "title": "Direct & Inverse Proportion",
+      "explanation": "Setting up variation equations utilizing algebraic scale constants (k).",
+      "examples": ["y ∝ x means y = kx", "y ∝ 1/x means y = k/x"]
+    },
+    {
+      "id": "grade5_reverse_percentages",
+      "title": "Reverse Percentages",
+      "explanation": "Finding original values before a percentage increase or decrease occurred.",
+      "examples": ["An item is £120 after a 20% increase. Original = 120 / 1.20 = £100."]
+    },
+    {
+      "id": "grade5_standard_form",
+      "title": "Standard Form",
+      "explanation": "Converting extreme numbers into standard scientific index notation A × 10^n.",
+      "examples": ["0.0034 = 3.4 × 10⁻³"]
+    },
+    {
+      "id": "grade5_speed_density",
+      "title": "Speed & Density",
+      "explanation": "Compound units and dimensional relationships using rate triangle variants.",
+      "examples": ["Distance = Speed × Time", "Mass = Density × Volume"]
+    },
+    {
+      "id": "grade5_changing_subject",
+      "title": "Changing Subject",
+      "explanation": "Isolating complex targeted literal symbols through balanced inverse tracking operations.",
+      "examples": ["Rearrange y = ax + b for x: x = (y - b)/a"]
+    },
+    {
+      "id": "grade5_expanding_factorising_quadratics",
+      "title": "Difference of Two Squares",
+      "explanation": "Utilizing DOTS structures to resolve quadratic expressions efficiently.",
+      "examples": ["(x + 5)(x - 5) = x² - 25"]
+    },
+    {
+      "id": "grade5_solving_quadratics",
+      "title": "Solving Quadratics",
+      "explanation": "Factoring trinomial expressions down to linear product statements equaling zero.",
+      "examples": ["x² - 5x + 6 = 0 -> (x-2)(x-3) = 0 -> x = 2 or 3"]
+    },
+    {
+      "id": "grade5_drawing_quadratic_graphs",
+      "title": "Quadratic Graphs",
+      "explanation": "Finding turning vertices, roots, symmetry configurations, and parabolic tracks.",
+      "examples": ["y = x² - 4 has a vertex minimum at (0, -4)."]
+    },
+    {
+      "id": "grade5_solving_simultaneous_graphically",
+      "title": "Graphical Intersection",
+      "explanation": "Locating mutual solution spaces visually on cross planes.",
+      "examples": ["The point where line 1 cuts line 2 is the system matrix solution."]
+    },
+    {
+      "id": "grade5_gradient_of_a_line",
+      "title": "Gradient Matrix",
+      "explanation": "Calculating vertical shift rises divided by lateral run rates.",
+      "examples": ["m = (y₂ - y₁) / (x₂ - x₁)"]
+    },
+    {
+      "id": "grade5_equation_of_a_line",
+      "title": "Linear Line Construction",
+      "explanation": "Defining straight paths utilizing standard form parameters y = mx + c.",
+      "examples": ["Gradient 3 cutting y-axis at 5 yields y = 3x + 5"]
+    },
+    {
+      "id": "grade5_spheres_and_cones",
+      "title": "Spheres & Cones",
+      "explanation": "Applying specific volume metrics involving 3D curved surfaces.",
+      "examples": ["Cone Vol = (1/3)πr²h"]
+    },
+    {
+      "id": "grade5_sector_areas_and_arc_lengths",
+      "title": "Sectors & Arcs",
+      "explanation": "Processing partial circle slices using proportional fractional angles out of 360°.",
+      "examples": ["Arc length = (θ/360) × 2πr"]
+    }
+  ]
+}
